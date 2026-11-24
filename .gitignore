@@ -1,0 +1,43 @@
+# Python & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets & Local Config
+.env
+.env.local
+
+# Private Local Brain & Blueprints (readable by local IDE/AI, NEVER pushed to public GitHub)
+SOP.md
+AGENTS.md
+CLAUDE.md
+PROGRESS.md
+docs/
+devlog/
+playgrounds/
+
+# Local Market Data & Databases (never commit raw market data or personal logs)
+data/*
+!data/sample/
+!data/sample/**
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.tmp
+
+# IDE & AI Assistant Local State
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
