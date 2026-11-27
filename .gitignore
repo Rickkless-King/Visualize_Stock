@@ -16,6 +16,7 @@ build/
 
 # Private Local Brain & Blueprints (readable by local IDE/AI, NEVER pushed to public GitHub)
 SOP.md
+MEMORY.md
 AGENTS.md
 CLAUDE.md
 PROGRESS.md
